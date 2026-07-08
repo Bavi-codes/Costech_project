@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Internship Engagement Time Frame</title>
+<style>
+  
+  :root {
+    --green:  #c8f7c5;
+    --green-dark: #2d7a27;
+    --blue:   #c2dff7;
+    --blue-dark: #1a5fa8;
+    --purple: #e0cff7;
+    --purple-dark: #5c2da8;
+    --yellow: #fdf3b0;
+    --yellow-dark: #7a6500;
+    --pink:   #fcd9ec;
+    --pink-dark: #a8205a;
+    --white:  #ffffff;
+    --border: #888;
+    --header-bg: #2c2c2c;
+    --header-fg: #ffffff;
+  }
+ 
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+ 
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: #f0ede8;
+    padding: 30px 16px;
+    min-height: 100vh;
+  }
+ 
+  h1 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    color: #1a1a1a;
+  }
+ 
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+ 
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.78rem;
+    font-weight: 600;
+  }
+ 
+  .legend-swatch {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    border: 1.5px solid rgba(0,0,0,0.2);
+  }
+ 
+  .table-wrapper {
+    overflow-x: auto;
+    border-radius: 10px;
+    box-shadow: 0 6px 30px rgba(0,0,0,0.15);
+  }
+ 
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 760px;
+    background: white;
+    font-size: 0.82rem;
+  }
+ 
+  th, td {
+    border: 1.2px solid var(--border);
+    padding: 6px 9px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.35;
+  }
+ 
+  /* Header rows */
+  .th-main {
+    background: var(--header-bg);
+    color: var(--header-fg);
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    padding: 10px;
+  }
+ 
+  .th-ampm {
+    background: #444;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+ 
+  .th-time {
+    background: #555;
+    color: #fff;
+    font-size: 0.78rem;
+    font-weight: 500;
+  }
+ 
+  /* Color classes */
+  .c-green   { background: var(--green);  color: var(--green-dark);  font-weight: 600; }
+  .c-blue    { background: var(--blue);   color: var(--blue-dark);   font-weight: 600; }
+  .c-purple  { background: var(--purple); color: var(--purple-dark); font-weight: 600; }
+  .c-yellow  { background: var(--yellow); color: var(--yellow-dark); font-weight: 600; }
+  .c-pink    { background: var(--pink);   color: var(--pink-dark);   font-weight: 700; letter-spacing: 0.04em; }
+ 
+  .month-header td {
+    background: #3a3a3a;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 7px;
+  }
+ 
+  /* Rotated vertical text cells */
+  .vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    padding: 8px 4px;
+  }
+</style>
+</head>
+<body>
+ 
+<h1>Internship Engagement Time Frame</h1>
+ 
+<div class="legend">
+  <div class="legend-item"><div class="legend-swatch" style="background:var(--green)"></div> Date &amp; Time</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:var(--blue)"></div> Web Dev</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:var(--purple)"></div> P&amp;ID / Python / AutoCAD</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:var(--yellow)"></div> Revit / Inventor / Robot / Fusion / Plant 3D / BIM</div>
+  <div class="legend-item"><div class="legend-swatch" style="background:var(--pink)"></div> Resumption / Break / Self-Practice</div>
+</div>
+ 
+<div class="table-wrapper">
+<table>
+  <!-- Top header -->
+  <thead>
+    <tr>
+      <td colspan="7" class="th-main">INTERNSHIP ENGAGEMENT TIME FRAME</td>
+    </tr>
+    <tr class="month-header">
+      <td colspan="7">MAY</td>
+    </tr>
+    <tr>
+      <th class="th-ampm c-green" rowspan="2">DATES / Time</th>
+      <th class="th-ampm" colspan="3">A.M</th>
+      <th class="th-ampm" colspan="3">P.M</th>
+    </tr>
+    <tr>
+      <th class="th-time">9:00</th>
+      <th class="th-time">10:00–12:00</th>
+      <th class="th-time">12:00–1:00</th>
+      <th class="th-time">1pm–2pm</th>
+      <th class="th-time">2pm–3pm</th>
+      <th class="th-time"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- MAY WEEK 1 -->
+    <tr>
+      <td class="c-green">Mon. 13th 2024<br>Tues. 14th 2024<br>Thurs. 16th 2024</td>
+      <td class="c-pink vertical-text" rowspan="3">RESUMPTION TIME</td>
+      <td class="c-blue">Web Dev. (HTML)</td>
+      <td class="c-pink vertical-text" rowspan="8">BREAK</td>
+      <td class="c-purple">AutoCAD/ Web Dev. (HTML)<br>Python<br>AutoCAD/Python</td>
+      <td class="c-pink vertical-text" rowspan="8">SELF-PRACTICE TIME</td>
+      <td></td>
+    </tr>
+    <!-- MAY WEEK 2 -->
+    <tr>
+      <td class="c-green">Mon. 20th 2024<br>Tues. 21st 2024<br>Thurs. 23rd 2024</td>
+      <td class="c-blue">Web Dev. (HTML)</td>
+      <td class="c-purple">AutoCAD / Web Dev. (HTML)<br>AutoCAD / Python</td>
+      <td></td>
+    </tr>
+    <!-- MAY WEEK 3 -->
+    <tr>
+      <td class="c-green">Mon. 27th 2024<br>Tues. 28th 2024<br>Thurs. 30th 2024</td>
+      <td class="c-blue">Web Dev. (CSS)</td>
+      <td class="c-purple">AutoCAD Web Dev. (CSS)<br>AutoCAD / Python</td>
+      <td></td>
+    </tr>
+    <!-- MAY WEEK 4 -->
+    <tr>
+      <td class="c-green">Mon. 3rd 2024<br>Tues. 4th 2024<br>Thurs. 6th 2024</td>
+      <td class="c-pink vertical-text" rowspan="5">RESUMPTION TIME</td>
+      <td class="c-blue">Web Dev. (CSS)</td>
+      <td class="c-purple">AutoCAD/Web Dev. (CSS)<br>Python<br>Python</td>
+      <td></td>
+    </tr>
+ 
+    <!-- JUNE HEADER -->
+    <tr class="month-header">
+      <td colspan="6">JUNE</td>
+    </tr>
+ 
+    <!-- JUNE WEEK 1 -->
+    <tr>
+      <td class="c-green">Mon. 10th 2024<br>Tues. 11th 2024<br>Thurs. 13th 2024</td>
+      <td class="c-yellow">Sketch-Up</td>
+      <td class="c-yellow">Revit Architecture/ Revit Structure/Web Dev. (Java Script!)<br>Python/Inventor</td>
+      <td></td>
+    </tr>
+    <!-- JUNE WEEK 2 -->
+    <tr>
+      <td class="c-green">Mon. 17th 2024<br>Tues. 18th 2024<br>Thurs. 20th 2024</td>
+      <td class="c-yellow">Sketch-Up<br><span class="c-blue" style="display:block">Web Dev. (Java Script)</span><br><span class="c-purple" style="display:block">P&amp;ID/Revit Structure</span></td>
+      <td class="c-pink vertical-text" rowspan="4">BREAK</td>
+      <td class="c-blue">Web Dev. (Java Script)<br><span class="c-yellow" style="display:block">Revit Architecture/Python</span><br><span class="c-yellow" style="display:block">Python/Inventor</span></td>
+      <td class="c-pink vertical-text" rowspan="4">SELF-PRACTICE TIME</td>
+      <td></td>
+    </tr>
+    <!-- JUNE WEEK 3 -->
+    <tr>
+      <td class="c-green">Mon. 24th 2024<br>Tues. 25th 2024<br>Thurs. 27th 2024</td>
+      <td class="c-blue">Web Dev. (Java Script)<br><span class="c-yellow" style="display:block">Robot Structure</span><br><span class="c-yellow" style="display:block">Inventor</span></td>
+      <td class="c-yellow">Inventor<br>Python/ Web Dev. (Java Script!)<br>P&amp;ID/Python</td>
+      <td></td>
+    </tr>
+    <!-- JUNE WEEK 4 -->
+    <tr>
+      <td class="c-green">Mon. 1st 2024<br>Tues. 2nd 2024</td>
+      <td class="c-yellow">Sketch-Up/ Robot Structure<br><span class="c-blue" style="display:block">Web Dev. (Project Presentation)</span></td>
+      <td class="c-purple">P&amp;ID/Web Dev. (Project Presentation)<br>Python/ Revit Architecture</td>
+      <td></td>
+    </tr>
+ 
+    <!-- JULY HEADER -->
+    <tr class="month-header">
+      <td colspan="6">JULY</td>
+    </tr>
+ 
+    <!-- JULY WEEK 1 -->
+    <tr>
+      <td class="c-green">Thurs. 4th 2024</td>
+      <td class="c-pink vertical-text" rowspan="4">RESUMPTION TIME</td>
+      <td class="c-yellow">Inventor</td>
+      <td class="c-pink vertical-text" rowspan="7">BREAK</td>
+      <td class="c-yellow">Robot Structure/Python</td>
+      <td class="c-pink vertical-text" rowspan="7">SELF-PRACTICE TIME</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="c-green">Mon. 8th 2024<br>Tues. 9th 2024<br>Thurs. 11th 2024</td>
+      <td class="c-yellow">Robot Structure<br>Fusion 360<br>Fusion 360</td>
+      <td class="c-yellow">Fusion 360<br>Robot Structure<br>Robot Structure</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="c-green">Mon. 15th 2024<br>Tues. 16th 2024<br>Thurs. 18th 2024</td>
+      <td class="c-yellow">Plant 3D</td>
+      <td class="c-yellow">BIM Workflow<br>Plant 3D<br>Fusion 360</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="c-green">Mon. 22nd 2024<br>Tues. 23rd 2024<br>Thurs. 25th 2024</td>
+      <td class="c-yellow">Sketch-Up<br>Fusion 360</td>
+      <td class="c-yellow">BIM Workflow<br>Plant 3D</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td class="c-green">Mon. 29th 2024<br>Tues. 30th 2024<br>Wed. 1st 2024</td>
+      <td class="c-pink vertical-text" rowspan="3">RESUMPTION TIME</td>
+      <td class="c-yellow">Sketch-Up</td>
+      <td class="c-yellow">Plant 3D<br>BIM Workflow</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+ 
+</body>
+</html>
